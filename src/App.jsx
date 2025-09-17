@@ -25,6 +25,7 @@ function App() {
           <MdOutlineEmojiPeople size={25} />
         </div>
       </div>
+
       <div className="section">
         <div className="section1">
           <img src="public/image 46.png" alt="image 46.png" />
@@ -35,6 +36,8 @@ function App() {
             <FaInstagram />
             <FaLinkedinIn />
           </div>
+
+
 
 
         </div>
@@ -60,6 +63,56 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className="about">
+        <div className="about-content">
+          <div className="text">
+            <h2>Our Story</h2>
+            <p>
+              Launched in 2015, Exclusive is South Asia’s premier online shopping <br />
+              marketplace with an active presence in Bangladesh. Supported <br /> by wide
+              range of tailored marketing, data and service solutions,<br /> Exclusive
+              has 10,500 sellers and 300 brands and serves 3 <br /> millions customers
+              across the region.  <br />
+              <br />
+            </p>
+            <p>
+              Exclusive has more than 1 Million products to offer, growing at a <br />
+              very fast. Exclusive offers a diverse assortment in categories <br />
+              ranging from consumer.
+            </p>
+          </div>
+
+          <div className="images">
+            <img src="Side Image.jpg" alt="Side Image.jpg" />
+
+          </div>
+        </div>
+
+        <div className="stats">
+          <div className="stat-card">
+            <div className="icon">🛍️</div>
+            <h3>10.5k</h3>
+            <p>Sellers active our site</p>
+          </div>
+          <div className="stat-card">
+            <div classability="icon">💰</div>
+            <h3>33k</h3>
+            <p>Monthly Product Sale</p>
+          </div>
+          <div className="stat-card">
+            <div classability="icon">👥</div>
+            <h3>45.5k</h3>
+            <p>Customer active in our site</p>
+          </div>
+          <div className="stat-card">
+            <div classability="icon">📦</div>
+            <h3>25k</h3>
+            <p>Anual gross sale in our site</p>
+          </div>
+        </div>
+      </div>
+      
       <footer>
         <div className="foo_cards">
           <div className="foo_card">
