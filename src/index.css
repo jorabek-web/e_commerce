@@ -1,0 +1,159 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.home {
+  display: flex;
+  gap: 50px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.foo_cards {
+  width: 100%;
+  gap: 87px;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  padding: 30px 122px;
+  box-sizing: border-box;
+}
+
+.foo_card {
+  width: 217;
+  height: 188;
+  opacity: 1;
+  gap: 16px;
+}
+
+.foo_card input {
+  width: 217;
+  height: 48;
+  opacity: 1;
+  gap: 32px;
+  border-width: 1.5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+  border: none;
+  color: cornsilk;
+}
+
+.foo_card p {
+  cursor: pointer;
+  color: gray;
+}
+
+.foo_card p:hover {
+  color: white;
+}
+
+.foo_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  padding: 2px 10px;
+  border-radius: 6px;
+  background-color: black;
+}
+
+.foo_input input {
+  width: 125px;
+  background-color: black;
+  outline: none;
+  outline-color: white;
+}
+
+.foto img {
+  display: flex;
+}
+
+.foo_cardw {
+  max-width: 240px;
+  color: #fff;
+}
+
+.foo_cardw h2 {
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.foo_cardw p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #aaa;
+}
+
+.foo_photo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.foo_photo>img {
+  width: 90px;
+}
+
+.foo_foto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.foo_foto img {
+  width: 120px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.foo_foto img:hover {
+  transform: scale(1.05);
+}
+
+.foo_icon {
+  margin-top: 12px;
+  display: flex;
+  gap: 18px;
+  font-size: 20px;
+}
+
+.foo_icon svg {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.foo_icon svg:hover {
+  color: #999;
+}
+
+.foo_cardw p {
+  color: grey;
+}
+
+.foo_photo {
+  display: flex;
+  gap: 20px;
+}
+
+.foo_foto {
+  display: flex;
+}
+
+.foo_icon {
+  display: flex;
+  font-size: 30px;
+  gap: 30px;
+  justify-content: center;
+}
