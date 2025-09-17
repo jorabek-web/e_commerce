@@ -112,7 +112,7 @@ function App() {
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div className="foo_cards">
           <div className="foo_card">
