@@ -1,9 +1,7 @@
 import { AiOutlineSend } from "react-icons/ai";
 import { SlSocialFacebook } from "react-icons/sl";
-import { CiTwitter } from "react-icons/ci";
-import { FaInstagram, FaRegHeart } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { CiSearch } from "react-icons/ci";
+import { CiLinkedin, CiTwitter } from "react-icons/ci";
+import { FaInstagram, FaLinkedinIn, FaRegHeart } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineEmojiPeople, MdOutlineShoppingCart } from "react-icons/md";
 
@@ -27,7 +25,41 @@ function App() {
           <MdOutlineEmojiPeople size={25} />
         </div>
       </div>
+      <div className="section">
+        <div className="section1">
+          <img src="public/image 46.png" alt="image 46.png" />
+          <h1>Tom Cruise</h1>
+          <p>Founder & Chairman</p>
+          <div className="section_i1">
+            <CiTwitter />
+            <FaInstagram />
+            <FaLinkedinIn />
+          </div>
 
+
+        </div>
+        <div className="section2">
+          <img src="public/image 51.png" alt="" />
+          <h1>Emma Watson</h1>
+          <p>Managing Director</p>
+          <div className="section_i2">
+            <CiTwitter />
+            <FaInstagram />
+            <FaLinkedinIn />
+          </div>
+
+        </div>
+        <div className="section3">
+          <img src="public/image 47.png" alt="image 47.png" />
+          <h1>Will Smith</h1>
+          <p>Product Designer</p>
+          <div className="section_i3">
+            <CiTwitter />
+            <FaInstagram />
+            <FaLinkedinIn />
+          </div>
+        </div>
+      </div>
       <footer>
         <div className="foo_cards">
           <div className="foo_card">
