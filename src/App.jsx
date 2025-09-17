@@ -26,44 +26,6 @@ function App() {
         </div>
       </div>
 
-      <div className="section">
-        <div className="section1">
-          <img src="public/image 46.png" alt="image 46.png" />
-          <h1>Tom Cruise</h1>
-          <p>Founder & Chairman</p>
-          <div className="section_i1">
-            <CiTwitter />
-            <FaInstagram />
-            <FaLinkedinIn />
-          </div>
-
-
-
-
-        </div>
-        <div className="section2">
-          <img src="public/image 51.png" alt="" />
-          <h1>Emma Watson</h1>
-          <p>Managing Director</p>
-          <div className="section_i2">
-            <CiTwitter />
-            <FaInstagram />
-            <FaLinkedinIn />
-          </div>
-
-        </div>
-        <div className="section3">
-          <img src="public/image 47.png" alt="image 47.png" />
-          <h1>Will Smith</h1>
-          <p>Product Designer</p>
-          <div className="section_i3">
-            <CiTwitter />
-            <FaInstagram />
-            <FaLinkedinIn />
-          </div>
-        </div>
-      </div>
-
       <div className="about">
         <div className="about-content">
           <div className="text">
@@ -109,6 +71,44 @@ function App() {
             <div classability="icon">📦</div>
             <h3>25k</h3>
             <p>Anual gross sale in our site</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="section">
+        <div className="section1">
+          <img src="public/image 46.png" alt="image 46.png" />
+          <h1>Tom Cruise</h1>
+          <p>Founder & Chairman</p>
+          <div className="section_i1">
+            <CiTwitter />
+            <FaInstagram />
+            <FaLinkedinIn />
+          </div>
+
+
+
+
+        </div>
+        <div className="section2">
+          <img src="public/image 51.png" alt="" />
+          <h1>Emma Watson</h1>
+          <p>Managing Director</p>
+          <div className="section_i2">
+            <CiTwitter />
+            <FaInstagram />
+            <FaLinkedinIn />
+          </div>
+
+        </div>
+        <div className="section3">
+          <img src="public/image 47.png" alt="image 47.png" />
+          <h1>Will Smith</h1>
+          <p>Product Designer</p>
+          <div className="section_i3">
+            <CiTwitter />
+            <FaInstagram />
+            <FaLinkedinIn />
           </div>
         </div>
       </div>
