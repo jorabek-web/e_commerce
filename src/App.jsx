@@ -4,6 +4,7 @@ import { CiLinkedin, CiTwitter } from "react-icons/ci";
 import { FaInstagram, FaLinkedinIn, FaRegHeart } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineEmojiPeople, MdOutlineShoppingCart } from "react-icons/md";
+import { Greeting } from "./components/greeting";
 
 function App() {
 
@@ -170,6 +171,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <Greeting />
     </>
   )
 }
